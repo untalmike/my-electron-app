@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Hello World!",
   "license": "MIT",
-  "author": "EPO",
+  "author": "Miguel Ángel González López EPO",
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
