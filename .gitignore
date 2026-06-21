@@ -1,0 +1,4 @@
+# Ignore modules or files
+.vscode
+node_modules
+.env
