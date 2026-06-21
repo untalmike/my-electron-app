@@ -4,6 +4,7 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 module.exports = {
   packagerConfig: {
     asar: false, // <-- 1. Apagamos la compresión ASAR
+    prune: false, // <-- Apagamos la limpieza de módulos para evitar el bloqueo de Node 24
   },
   rebuildConfig: {},
   makers: [
